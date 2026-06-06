@@ -1,0 +1,25 @@
+:root {
+  --border-radius: 0.4rem;
+  --border-radius-inner: 0.3rem;
+  --color-blueblack: #1d1e2c;
+  --color-bluegray: #282a3c;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
+main {
+  padding: 1rem 0.5rem;
+  overflow-y: auto;
+}
